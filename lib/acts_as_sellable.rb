@@ -1,4 +1,4 @@
-module Piggybak
+module MintOrder
   module ActsAsSellable
     extend ActiveSupport::Concern
 
