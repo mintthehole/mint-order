@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  order: 
+  created_by: 1
+  note: MyText
+
+two:
+  order: 
+  created_by: 1
+  note: MyText
