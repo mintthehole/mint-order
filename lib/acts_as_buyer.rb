@@ -3,7 +3,7 @@ module MintOrder
     extend ActiveSupport::Concern
 
     module ClassMethods
-      def acts_as_seller
+      def acts_as_buyer
         has_many :mint_orders, :foreign_key => "customer_id", :class_name => "::MintOrder::Order"
       end
     end
