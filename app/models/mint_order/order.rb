@@ -16,9 +16,8 @@ module MintOrder
     ]
 
     def set_defaults
-    	status = NEW
-    	total = order_items.collect(&:amount).inject(:+) || 0
+    	self.status = NEW
+    	self.total = order_items.collect(&:amount).inject(:+) || 0
     end
-
   end
 end

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mint-order (0.0.2)
+    mint-order (0.0.7)
       rails (~> 3.2.12)
 
 GEM

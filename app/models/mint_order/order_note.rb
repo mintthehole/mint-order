@@ -4,3 +4,4 @@ module MintOrder
     attr_accessible :created_by, :note
   end
 end
+

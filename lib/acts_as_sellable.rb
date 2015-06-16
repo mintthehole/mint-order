@@ -3,9 +3,9 @@ module MintOrder
     extend ActiveSupport::Concern
 
     module ClassMethods
-      def acts_as_sellable
-        has_one :order_item, :foreign_key => "product_id", :class_name => "::MintOrder::Order"
-
+      def acts_as_sellable price
+        has_many :order_item, as: :product, :class_name => "MintOrder::OrderItem"
+        alias_attribute :price, price
       end
     end
   end
